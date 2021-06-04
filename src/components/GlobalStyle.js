@@ -42,6 +42,7 @@ const GlobalStyle = createGlobalStyle`
 
     h4 {
         font-weight: 700;
+        font-size: 2rem;
     }
 
     a {
