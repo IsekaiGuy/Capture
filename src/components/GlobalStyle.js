@@ -2,9 +2,9 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
     * {
-        margin:0;
-        padding:0;
-        box-sizing:border-box;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
 
 
@@ -16,8 +16,8 @@ const GlobalStyle = createGlobalStyle`
        
     button {
         font-family: 'Inter', sans-serif;
-        font-weight: bold;
-        font-size: 1.1rem;
+        font-weight: 700;
+        font-size: 1.2rem;
         cursor: pointer;
         padding: 1rem 2rem;
         border: 3px solid #23d997;
@@ -32,16 +32,16 @@ const GlobalStyle = createGlobalStyle`
     }
 
     h2 {
-        font-weight: lighter;
-        font-size: 4rem;
+        font-weight: 300;
+        font-size: 3.2rem;
     }
 
     h3 {
-        color:white;
+        color: white;
     }
 
     h4 {
-        font-weight: bold;
+        font-weight: 700;
     }
 
     a {
@@ -49,14 +49,14 @@ const GlobalStyle = createGlobalStyle`
     }
 
     span {
-        font-weight: bold;
+        font-weight: 700;
         color: #23d997
     }
 
     p {
         padding: 3rem 0rem;
         color: #cccccc;
-        font-size: 1.4rem;
+        font-size: 1.1rem;
         line-height: 150%;
     }
 
