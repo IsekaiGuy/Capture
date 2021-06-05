@@ -83,15 +83,14 @@ const HeadLine = styled.div`
 `;
 
 const Awards = styled.div`
-  min-height: 80vh;
+  min-height: 50vh;
   display: flex;
-  /* margin: 2rem 5rem; */
   align-items: center;
   justify-content: space-around;
 `;
 
 const StyledAward = styled.div`
-  padding: 5rem;
+  padding: 0 5rem;
 
   h3 {
     font-size: 1.5rem;

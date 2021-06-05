@@ -7,11 +7,16 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
     }
 
+    html {
+        @media only screen and (max-width: 1500px) {
+            font-size: 75%;
+        }
+    }
 
     body {
         background: #1b1b1b;
         font-family: 'Inter', sans-serif;
-        
+        overflow-x: hidden;
     }
        
     button {
@@ -24,6 +29,10 @@ const GlobalStyle = createGlobalStyle`
         background: transparent;
         color: white;
         transition: all 0.5s ease;
+
+        @media only screen and (max-width: 1116px) {
+          margin-bottom: 2rem;
+        }
 
         &:hover {
         background: #23d997;
