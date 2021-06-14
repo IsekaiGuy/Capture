@@ -6,6 +6,7 @@ import { About, Description, Hide, Image } from "../styles";
 import { motion } from "framer-motion";
 import { titleAnim, fade, photoAnim } from "../animation";
 import Wave from "./Wave";
+import { Link } from "react-router-dom";
 
 // ease: [0.3, 0.35, 0.4, 0.3]
 //when: "afterChildren"
@@ -31,7 +32,9 @@ const AboutSection = () => {
           Contact us for any photography or videography ideas that you have. We
           have professionals with amazing skills.
         </motion.p>
-        <motion.button variants={fade}>Contact Us</motion.button>
+        <Link to="/contact">
+          <motion.button variants={fade}>Contact Us</motion.button>
+        </Link>
       </Description>
       <Image>
         <motion.img variants={photoAnim} src={home1} alt="Guy with a camera" />
